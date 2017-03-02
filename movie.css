@@ -1,0 +1,157 @@
+/*
+Ioane "Tavi" Tenari
+CSE 154 AK 
+HW3 - TMNT Review website (CSS)
+*/
+
+.auth, #columnright, #rotban{
+	overflow: hidden;
+}
+
+#banner{
+	background-image: url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+	height: 50px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}	   	
+
+.blurb{
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	overflow: auto;
+	padding: 8px;
+}
+
+.blurb, #meat{
+	border-radius: 20px;
+}
+
+body{
+	background-image: url("https://webster.cs.washington.edu/images/moviebg.png");	
+	margin: 0;
+	text-align: center;
+}
+
+#columnleft{
+	display: inline-block;
+	margin-left: 2%;
+}
+
+#columnleft, #columnmiddle{
+	margin-top: 2%;
+	width: 47%;
+}
+
+#columnleft, #columnmiddle, #credits, #reviews{
+	text-align: left;
+}
+
+#columnmiddle{
+	margin-right: 2%;
+}
+
+#columnmiddle, #columnright, #valid{
+	float: right;
+}
+
+#columnright{
+	border-top-right-radius: 20px;
+	width: 250px;
+}
+
+#columnright, .critic, #num, #perc{
+	font-family: Arial;
+}
+
+#columnright, #num, #reviews{
+	font-size: 10pt;
+}
+
+#credits{
+	margin-left: 10pt;
+	margin-right: 10pt;
+}	
+
+dd{
+	margin-bottom: 10pt;
+}
+
+dt, #perc{
+	font-weight: bold;
+}
+	
+h1{
+	margin-top: 72px;	
+	text-shadow: 3px 3px #999999;
+}
+
+h1, #reviews{
+	font-family: Georgia;
+}
+
+.italic{
+	font-style: italic;
+}
+
+li{
+	list-style-type: none;
+}
+
+#meat{
+	box-shadow: 5px 5px 5px gray;
+	background-color: #A2B964;
+	height: 100%;
+	margin: auto;
+	width: 800px;
+}
+
+#num{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	clear: both;
+}
+
+#perc{
+	color: red;
+	font-size: 48pt;
+	margin-left: 13pt;
+	margin-top: 6.5pt;
+}
+
+#perc, .revimg, #rotlogo{
+	float: left;
+}
+
+.revcol{
+	margin-bottom: 20pt;
+}
+
+.revimg{
+	margin-right: 5px;
+}
+
+#reviews{
+	background-color: #EEEEEE;
+	height: 1025px;
+}
+
+#reviews, #rotban{
+	width: 550px;
+}
+
+.revtext{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#rotban{
+	background-image: url("https://webster.cs.washington.edu/images/rottenlargebg.png");
+	border-top-left-radius: 20px;
+	height: 83px;
+}
+
+ul{
+	padding-left: 0;
+}
